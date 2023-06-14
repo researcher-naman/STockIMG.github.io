@@ -3,6 +3,8 @@
 
 This Website design for large scale digital art store.
 
+🎨 Explore, buy, and share digital art effortlessly! Our platform for large-scale art stores offers responsive design for any device, a cool light/dark mode switch, and endless customization options 🌈💻. With progress bars, an order cart, and favorite sections, it's easy to navigate and find your art favorites ❤️. Share art links, join memberships, and enjoy secure login/registration pages for a seamless art experience! 🚀
+
 [![VISIT NOW](https://img.shields.io/badge/visit_now-ff0000?style=for-the-badge&logo=&logoColor=red)](https://stockimg.nasu.live)
 
 
