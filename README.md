@@ -35,6 +35,11 @@ This Website design for large scale digital art store.
 - Easy and highly customizable. 
 - Memebrship Sections.
 - Login/Registration Page.
+- User Ratings and Reviews.
+- Search and Filtering.
+- Image Lazy Loading.
+- Image Zoom.
+- Infinite Scroll
 
   
 ## Color Reference
