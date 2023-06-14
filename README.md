@@ -22,7 +22,7 @@ This Website design for large scale digital art store.
 **Server:** Node.js.
 
 
-## Features
+## ✨ Features
 
 - Responsive Web Design. 
 - Light/drak mode Switch.
@@ -33,6 +33,8 @@ This Website design for large scale digital art store.
 - Easy and highly customizable. 
 - Memebrship Sections.
 - Login/Registration Page.
+
+  
 ## Color Reference
 
 | Color             | Hex                                                                |
