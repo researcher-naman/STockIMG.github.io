@@ -1,0 +1,63 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Main navitgation bar */
+
+#main-nav {
+    box-shadow: 0px 0.4px 2px 1px rgba(0, 0, 0, 0.200);
+}
+
+.right-nav {
+    margin-left: auto;
+    display: flex;
+}
+.nav-link {
+    color: black;
+    font-weight: 600;
+    font-family: 'Roboto';
+    letter-spacing: 0.8px;
+}
+#nav-icons {
+    margin-right: 0.3rem;
+}
+.hover:hover {
+    color: #00cc33;
+    cursor: pointer;
+}
+
+#search-tab>input {
+    border: none;
+    border-radius: 0px;
+    width: 20rem;
+    padding: 0rem;
+    padding-left: 0.5rem;
+}
+#search-tab>input:focus {
+    border: none;
+    border-radius: 0px;
+    outline: none;
+    box-shadow: none;
+}
+#search-tab>button {
+    border: none;
+    border-radius: 0px;
+    background-color: none;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+#search-tab {
+    border: 0.4px solid #c2c2c2;
+    box-shadow: 0px 0.5px 4px 0.3px rgba(0, 0, 0, 0.150);
+}
+#login {
+    border: 0.4px solid #c2c2c2;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 0.3rem;
+    padding-bottom: 0.3rem;
+    background-color: rgb(208, 208, 208);
+    margin-right: 1rem;
+    margin-left: 1rem;
+}

@@ -19,14 +19,55 @@
         <link rel="stylesheet" href="/public/css/navbar.css">
         <link rel="stylesheet" href="/public/css/footer.css">
         <link rel="stylesheet" href="/public/css/preload.css">
+        <link rel="stylesheet" href="/public/css/font.css">
     </section>
 
 </head>
 <body>
-    
+
+    <div class="preloader">
+        <div class="loader"><img class="loadgif" src="/public/assets/local/whitelogo.gif"></div>
+    </div>
+
+    <header id="header" class="container-fluid">
+        <nav id="main-nav" class="navbar navbar-expand-lg fixed-top">
+            <!-- Logo -->
+            <a class="navbar-brand ms-3" href="index.html">
+              <img src="/public/assets/local/SIMG_black.png" alt="Logo" style="width:40px;">
+              <span class="h5">STock IMG</span>
+            </a>
+          
+          
+            <div class="right-nav me-3" id="responav">
+                <form id="search-tab" class="d-flex">
+                    <input class="form-control" type="search" placeholder="Search images" aria-label="Search">
+                    <button class="btn hover" type="submit"><i class="bi bi-search"></i></button>
+                </form>
+                <ul class="navbar-nav ms-3">
+                    <li class="nav-item">
+                    <a class="nav-link hover" id="login" onclick="login()">Login</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link hover" href="#"><i id="nav-icons" class="bi bi-suit-heart"></i> Favorite</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link hover" href="#"><i id="nav-icons" class="bi bi-cart"></i> Cart</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link hover" href="#"><i id="nav-icons" class="bi bi-gear"></i> Settings</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link hover" href="#"><i id="nav-icons" class="bi bi-chat-text"></i> Help</a>
+                    </li>
+                </ul>
+            </div>
+          </nav>
+    </header>
+
     <section> <!-- Our made JavaScript linking -->
         <script src="/public/js/perload.js"></script>
         <script src="/public/js/noright.js"></script>
+        <script src="/public/js/login.js"></script>
     </section>
 </body>
 </html>
