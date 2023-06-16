@@ -6,32 +6,45 @@
 /* Main navitgation bar */
 
 #main-nav {
-    box-shadow: 0px 0.4px 2px 1px rgba(0, 0, 0, 0.200);
+    box-shadow: 0px 0.4px 2px 1px rgba(0, 0, 0, 0.500);
+    display: flex;
+    align-items: center;
+    background-color: #00cc33;
 }
-
+#site-logo>span {
+    color: white;
+    font-size: 1.4rem;
+}
 .right-nav {
     margin-left: auto;
     display: flex;
+    align-items: center;
 }
 .nav-link {
-    color: black;
+    color: white;
     font-weight: 600;
     font-family: 'Roboto';
     letter-spacing: 0.8px;
+    text-shadow: 0px 1.2px 2.5px rgba(0,0,0,0.100);
+    transition: color 0.15s linear;
+    margin-left: 0.5rem;
+}
+.navbar-nav {
+    align-items: center;
 }
 #nav-icons {
     margin-right: 0.3rem;
 }
 .hover:hover {
-    color: #00cc33;
+    color: white;
     cursor: pointer;
 }
 
 #search-tab>input {
     border: none;
     border-radius: 0px;
-    width: 20rem;
-    padding: 0rem;
+    width: 25rem;
+    padding: 0.3rem;
     padding-left: 0.5rem;
 }
 #search-tab>input:focus {
@@ -43,21 +56,29 @@
 #search-tab>button {
     border: none;
     border-radius: 0px;
-    background-color: none;
+    background-color: white;
     padding-top: 0px;
     padding-bottom: 0px;
 }
+#search-tab>button {
+    color: #00cc33;
+}
 #search-tab {
     border: 0.4px solid #c2c2c2;
-    box-shadow: 0px 0.5px 4px 0.3px rgba(0, 0, 0, 0.150);
+    box-shadow: 0px 0.5px 3.5px 0.3px rgba(0, 0, 0, 0.150);
 }
 #login {
-    border: 0.4px solid #c2c2c2;
-    padding-left: 1rem;
-    padding-right: 1rem;
+    padding-left: 1.2rem;
+    padding-right: 1.2rem;
     padding-top: 0.3rem;
     padding-bottom: 0.3rem;
-    background-color: rgb(208, 208, 208);
+    background-color: rgb(255, 255, 255);
     margin-right: 1rem;
     margin-left: 1rem;
+    text-shadow: none;
+    box-shadow: 0px 0.3px 5px 0.3px rgba(0, 0, 0, 0.199);
+    color: #00cc33;
+}
+#login:hover {
+    color: #00cc33;
 }
