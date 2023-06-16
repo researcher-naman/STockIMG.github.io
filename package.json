@@ -1,0 +1,16 @@
+{
+  "name": "self-nasu",
+  "version": "1.0.0",
+  "description": "![Logo](https://media.discordapp.net/attachments/1106481810273206293/1109007978146828368/GitHUb_nasu.png?width=1025&height=390)",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
