@@ -1,7 +1,7 @@
 {
-  "name": "self-nasu",
+  "name": "stockimg.github.io",
   "version": "1.0.0",
-  "description": "![Logo](https://media.discordapp.net/attachments/1106481810273206293/1109007978146828368/GitHUb_nasu.png?width=1025&height=390)",
+  "description": "This Website design for large scale digital art store.",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
