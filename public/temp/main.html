@@ -45,7 +45,9 @@
                 </form>
                 <ul class="navbar-nav ms-3">
                     <li class="nav-item">
-                    <a class="nav-link hover" id="login" onclick="login()">Login</a>
+                        <button type="button" id="login" class="nav-link hover" data-bs-toggle="modal" data-bs-target="#loginModal">
+                        M.Login
+                      </button>
                     </li>
                     <li class="nav-item">
                     <a class="nav-link hover" href="#"><i id="nav-icons" class="bi bi-suit-heart"></i> Favorites</a>
@@ -61,8 +63,50 @@
                     </li>
                 </ul>
             </div>
-          </nav>
+        </nav>
+
+        <div class="wide-top container-fluid"> <!-- wide sapce on top behinde main nav -->
+          <span class="container"></span>
+        </div>
+
+        <div id="sec-nav" class="">
+            <div class="nav-item"><a class="nav-link">category1</a></div>
+            <div class="nav-item"><a class="nav-link">category1</a></div>
+            <div class="nav-item"><a class="nav-link">category1</a></div>
+            <div class="nav-item"><a class="nav-link">category1</a></div>
+            <div class="nav-item"><a class="nav-link">category1</a></div>
+            <div class="nav-item"><a class="nav-link">category1</a></div>
+            <div class="nav-item"><a class="nav-link">category1</a></div>
+            <div class="nav-item"><a class="nav-link">category1</a></div>
+            <div class="nav-item"><a class="nav-link">category1</a></div>
+            <div class="nav-item"><a class="nav-link">category1</a></div>
+        </div>
     </header>
+
+        <div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                    <div class="modal-heading">
+                        <h5 class="modal-title" id="loginModalLabel">Members Login</h5>
+                        <span>For Gold Membership User. <a style="color: #fc4903;" href="">know more</a></span>
+                    </div>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <form>
+                    <div class="mb-3">
+                      <input type="email" class="form-control log-form" id="email" placeholder="Enter email" required>
+                    </div>
+                    <div class="mb-3">
+                      <input type="password" class="form-control log-form" id="password" placeholder="Password" required>
+                    </div>
+                    <button type="submit" class="btn og-btn">Login</button>
+                  </form>
+                </div>
+              </div>
+            </div>
+        </div>
 
     <section> <!-- Our made JavaScript linking -->
         <script src="/public/js/perload.js"></script>

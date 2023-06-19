@@ -9,7 +9,7 @@
     box-shadow: 0px 0.4px 2px 1px rgba(0, 0, 0, 0.500);
     display: flex;
     align-items: center;
-    background-color: #00cc33;
+    background-color: #fc4903;
 }
 #site-logo>span {
     color: white;
@@ -61,7 +61,7 @@
     padding-bottom: 0px;
 }
 #search-tab>button {
-    color: #00cc33;
+    color: #fc4903;
 }
 #search-tab {
     border: 0.4px solid #c2c2c2;
@@ -77,8 +77,42 @@
     margin-left: 1rem;
     text-shadow: none;
     box-shadow: 0px 0.3px 5px 0.3px rgba(0, 0, 0, 0.199);
-    color: #00cc33;
+    color: #fc4903;
 }
 #login:hover {
-    color: #00cc33;
+    color: #fc4903;
+    /* color: #be03fc; */
+}
+
+/* Login form css */
+
+.modal-heading  {
+    display: flex;
+    flex-direction: column;
+}
+.modal-content {
+    border-radius: 0px;
+}
+.log-form {
+    border-radius: 0px;
+    box-shadow: 0px 1.2px 3px 0.2px rgba(0, 0, 0, 0.199);
+    border: 0.3px solid #fc4a0334;
+    transition: border 0.2s ease-in-out;
+}
+.log-form:focus {
+    box-shadow: none;
+    border: none;
+    outline: none;
+    box-shadow: 0px 1.2px 3px 0.2px rgba(0, 0, 0, 0.199);
+    border: 0.3px solid #fc4a03c6;
+}
+
+.wide-top {
+    height: 10vh;
+}
+
+/* sec-navigation bar */
+
+#sec-nav {
+    background-color: #be03fc;
 }
