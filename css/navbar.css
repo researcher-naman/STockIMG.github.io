@@ -6,7 +6,7 @@
 /* Main navitgation bar */
 
 #main-nav {
-    box-shadow: 0px 0.4px 2px 1px rgba(0, 0, 0, 0.500);
+    box-shadow: 0px 0.4px 3px 1px rgba(0, 0, 0, 0.150);
     display: flex;
     align-items: center;
     background-color: #fc4903;
@@ -81,7 +81,6 @@
 }
 #login:hover {
     color: #fc4903;
-    /* color: #be03fc; */
 }
 
 /* Login form css */
@@ -107,12 +106,4 @@
     border: 0.3px solid #fc4a03c6;
 }
 
-.wide-top {
-    height: 10vh;
-}
 
-/* sec-navigation bar */
-
-#sec-nav {
-    background-color: #be03fc;
-}

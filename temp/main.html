@@ -7,19 +7,21 @@
     <title>Main Template</title>
 
     <!-- Website Favicon Linking -->
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="/assets/local/SIMG_color.png" type="image/png" style="zoom: 150%;">
 
     <section> <!-- Bootstrap 5 and other CDN linking (CSS + JS) -->
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     </section>
 
     <section> <!-- Our made CSS linking -->
+        <link rel="stylesheet" href="/css/font.css">
         <link rel="stylesheet" href="/css/navbar.css">
         <link rel="stylesheet" href="/css/footer.css">
         <link rel="stylesheet" href="/css/preload.css">
-        <link rel="stylesheet" href="/css/font.css">
+        <link rel="stylesheet" href="/css/secnavbar.css">
     </section>
 
 </head>
@@ -27,7 +29,7 @@
 
     <div class="preloader">
         <div class="loader"><img class="loadgif" src="/assets/local/whitelogo.gif"></div>
-    </div>
+    </div> <!-- Preloader -->
 
     <header id="header" class="container-fluid">
         <nav id="main-nav" class="navbar navbar-expand-lg fixed-top">
@@ -64,24 +66,7 @@
                 </ul>
             </div>
         </nav>
-
-        <div class="wide-top container-fluid"> <!-- wide sapce on top behinde main nav -->
-          <span class="container"></span>
-        </div>
-
-        <div id="sec-nav" class="">
-            <div class="nav-item"><a class="nav-link">category1</a></div>
-            <div class="nav-item"><a class="nav-link">category1</a></div>
-            <div class="nav-item"><a class="nav-link">category1</a></div>
-            <div class="nav-item"><a class="nav-link">category1</a></div>
-            <div class="nav-item"><a class="nav-link">category1</a></div>
-            <div class="nav-item"><a class="nav-link">category1</a></div>
-            <div class="nav-item"><a class="nav-link">category1</a></div>
-            <div class="nav-item"><a class="nav-link">category1</a></div>
-            <div class="nav-item"><a class="nav-link">category1</a></div>
-            <div class="nav-item"><a class="nav-link">category1</a></div>
-        </div>
-    </header>
+    </header> <!-- Main Navigation bar -->
 
         <div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">
             <div class="modal-dialog">
@@ -106,12 +91,50 @@
                 </div>
               </div>
             </div>
-        </div>
+        </div> <!-- login popup design -->
 
-    <section> <!-- Our made JavaScript linking -->
+        <div class="wide-top container-fluid">
+        </div>  <!-- Wide Space behind Main Navigation bar -->
+
+        <section id="sub-navbar" class="container-fluid navbar navbar-expand-lg animate__animated animate__fadeInDown">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link sec-nav-link" href="">Nature</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link sec-nav-link" href="">Finance</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link sec-nav-link" href="">Lifestyle</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link sec-nav-link" href="">Technology</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link sec-nav-link" href="">Adventure</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link sec-nav-link" href="">Food</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link sec-nav-link" href="">Health</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link sec-nav-link" href="">Abstract</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link sec-nav-link" href="">Architecture</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link sec-nav-link" href="">Education</a>
+            </li>
+          </ul>
+        </section> <!-- Section of sub Navigation Bar on website -->
+
+    <section>
         <script src="/js/perload.js"></script>
         <script src="/js/noright.js"></script>
         <script src="/js/login.js"></script>
-    </section>
+    </section> <!-- Our made JavaScript linking -->
 </body>
 </html>

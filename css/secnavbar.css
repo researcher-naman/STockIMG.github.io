@@ -1,0 +1,10 @@
+/* Sub-Navigation bar CSS */
+
+#sub-navbar {
+    background-color: #be03fc;
+    justify-content: center;
+}
+
+.sec-nav-link:hover {
+    color: white;
+}

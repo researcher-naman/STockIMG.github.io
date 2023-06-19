@@ -3,6 +3,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');  /* font-family: 'Roboto', sans-serif; */
 
 
+.wide-top {
+    height: 8.5vh;
+}
+
 .og-btn {
     background-color: #fc4903;
     border-radius: 0px;
