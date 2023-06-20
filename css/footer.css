@@ -1,0 +1,42 @@
+.test {
+    height: 100vh;
+}
+#footer {
+    bottom: 0px;
+    border-top: 0.3px solid #cbcbcb;
+    box-shadow: 0px 0.3px 2px 0.3px rgba(82, 82, 82, 0.342);
+}
+
+.f-font {
+    color: #575757;
+    text-decoration: none;
+    font-weight: 500;
+}
+.f-font:hover {
+    color: #be03fc;
+}
+
+.f-font>i .f-font:hover {
+    color: #be03fc;
+}
+.copy-font {
+    color: white;
+}
+.copy-font:hover {
+    color: white;
+}
+.bg-sec {
+    background-color: #be03fc;
+}
+.copy-btn {
+    background-color: transparent;
+    border-radius: 100%;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    color: #575757;
+    transition: background-color 0.5s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+}
+.copy-btn:hover {
+    background-color: #be03fc;
+    color: white;
+}
