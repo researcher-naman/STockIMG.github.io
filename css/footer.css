@@ -13,11 +13,11 @@
     font-weight: 500;
 }
 .f-font:hover {
-    color: #be03fc;
+    color: var(--sec-color);
 }
 
 .f-font>i .f-font:hover {
-    color: #be03fc;
+    color: var(--sec-color);
 }
 .copy-font {
     color: white;
@@ -26,7 +26,7 @@
     color: white;
 }
 .bg-sec {
-    background-color: #be03fc;
+    background-color: var(--sec-color);
 }
 .copy-btn {
     background-color: transparent;
@@ -37,6 +37,6 @@
     transition: background-color 0.5s cubic-bezier(0.455, 0.03, 0.515, 0.955);
 }
 .copy-btn:hover {
-    background-color: #be03fc;
+    background-color: var(--sec-color);
     color: white;
 }

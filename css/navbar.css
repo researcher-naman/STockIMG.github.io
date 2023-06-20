@@ -9,7 +9,7 @@
     box-shadow: 0px 0.4px 3px 1px rgba(0, 0, 0, 0.150);
     display: flex;
     align-items: center;
-    background-color: #fc4903;
+    background-color: var(--main-color);
 }
 #site-logo>span {
     color: white;
@@ -61,7 +61,7 @@
     padding-bottom: 0px;
 }
 #search-tab>button {
-    color: #fc4903;
+    color: var(--main-color);
 }
 #search-tab {
     border: 0.4px solid #c2c2c2;
@@ -77,10 +77,10 @@
     margin-left: 1rem;
     text-shadow: none;
     box-shadow: 0px 0.3px 5px 0.3px rgba(0, 0, 0, 0.199);
-    color: #fc4903;
+    color: var(--main-color);
 }
 #login:hover {
-    color: #fc4903;
+    color: var(--main-color);
 }
 
 /* Login form css */

@@ -1,7 +1,7 @@
 /* Sub-Navigation bar CSS */
 
 #sub-navbar {
-    background-color: #be03fc;
+    background-color: var(--sec-color);
     justify-content: center;
     z-index: 3;
     padding: 0px;
@@ -45,11 +45,11 @@
 }
 .cate-li>a:hover {
     text-decoration: none;
-    color: #be03fc;
+    color: var(--sec-color);
     padding-left: 1.5rem;
 }
 .cate-li>strong {
-    color: #fc4903;
+    color: var(--main-color);
     font-weight: bolder;
     font-size: 1.05rem;
 }

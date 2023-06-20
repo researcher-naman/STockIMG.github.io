@@ -3,12 +3,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');  /* font-family: 'Roboto', sans-serif; */
 
 
-.wide-top {
-    height: 8.5vh;
+:root {
+    --main-color: #fc4903; /* Define the primary color using HEX format */
+    --sec-color: #be03fc;
+  }
+
+.wide-top { 
+    height: 8.5vh; /* wide space under the main navbar */
 }
 
+
+/* css of btn in side of form */
+
+
 .og-btn {
-    background-color: #fc4903;
+    background-color: var(--main-color);
     border-radius: 0px;
     box-shadow: 0px 0.3px 5px 0.7px rgba(0, 0, 0, 0.199);
     color: white;
@@ -20,7 +29,7 @@
     border: 0.5px solid white;
 }
 .og-btn:hover {
-    background-color: #fc4903;
+    background-color: var(--main-color);
     border-radius: 0px;
     box-shadow: 0px 0.3px 5px 0.7px rgba(0, 0, 0, 0.199);
     color: white;
