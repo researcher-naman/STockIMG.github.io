@@ -31,42 +31,44 @@
         <div class="loader"><img class="loadgif" src="/assets/local/whitelogo.gif"></div>
     </div> <!-- Preloader -->
 
-    <header id="header" class="container-fluid">
-        <nav id="main-nav" class="navbar navbar-expand-lg fixed-top">
-            <!-- Logo -->
-            <a id="site-logo" class="navbar-brand ms-3" href="/index.html">
-              <img src="/assets/local/SIMG_white.png" alt="Logo" style="width:48px;">
-              <span class="h5">STock IMG</span>
-            </a>
-          
-          
-            <div class="right-nav me-3" id="responav">
-                <form id="search-tab" class="d-flex">
-                    <input class="form-control" type="search" placeholder="Search images" aria-label="Search">
-                    <button class="btn hover" type="submit"><i class="bi bi-search"></i></button>
-                </form>
-                <ul class="navbar-nav ms-3">
-                    <li class="nav-item">
-                        <button type="button" id="login" class="nav-link hover" data-bs-toggle="modal" data-bs-target="#loginModal">
-                        M.Login
-                      </button>
-                    </li>
-                    <li class="nav-item">
-                    <a class="nav-link hover" href="#"><i id="nav-icons" class="bi bi-suit-heart"></i> Favorites</a>
-                    </li>
-                    <li class="nav-item">
-                    <a class="nav-link hover" href="#"><i id="nav-icons" class="bi bi-cart"></i> Cart</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link hover" href="#"><i id="nav-icons" class="bi bi-gear"></i> Settings</a>
-                    </li>
-                    <li class="nav-item">
-                    <a class="nav-link hover" href="#"><i id="nav-icons" class="bi bi-chat-text"></i> Help</a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
-    </header> <!-- Main Navigation bar -->
+    <section>  <!-- Full header and all navigation bar -->
+
+        <header id="header" class="container-fluid">
+            <nav id="main-nav" class="navbar navbar-expand-lg fixed-top">
+                <!-- Logo -->
+                <a id="site-logo" class="navbar-brand ms-3" href="/index.html">
+                  <img src="/assets/local/SIMG_white.png" alt="Logo" style="width:48px;">
+                  <span class="h5">STock IMG</span>
+                </a>
+              
+              
+                <div class="right-nav me-3" id="responav">
+                    <form id="search-tab" class="d-flex">
+                        <input class="form-control" type="search" placeholder="Search images" aria-label="Search">
+                        <button class="btn hover" type="submit"><i class="bi bi-search"></i></button>
+                    </form>
+                    <ul class="navbar-nav ms-3">
+                        <li class="nav-item">
+                            <button type="button" id="login" class="nav-link hover" data-bs-toggle="modal" data-bs-target="#loginModal">
+                            M.Login
+                          </button>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link hover" href="#"><i id="nav-icons" class="bi bi-suit-heart"></i> Favorites</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link hover" href="#"><i id="nav-icons" class="bi bi-cart"></i> Cart</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link hover" href="#"><i id="nav-icons" class="bi bi-gear"></i> Settings</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link hover" href="#"><i id="nav-icons" class="bi bi-chat-text"></i> Help</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header> <!-- Main Navigation bar -->
 
         <div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">
             <div class="modal-dialog">
@@ -99,40 +101,40 @@
         <section id="sub-navbar" class="container-fluid navbar navbar-expand-lg animate__animated animate__fadeInDown">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <button class="nav-link sec-nav-link cate1" type="button" onmouseover="subcate('cate1')" onmouseleave="subcateout('cate1')">Nature</a>
+              <button class="nav-link sec-nav-link Mcate1" data-target="cate1" type="button">Nature</a>
             </li>
             <li class="nav-item">
-              <button class="nav-link sec-nav-link" type="button" onclick="subcate('cate5')">Finance</a>
+              <button class="nav-link sec-nav-link Mcate1" data-target="cate2" type="button">Finance</a>
             </li>
             <li class="nav-item">
-              <button class="nav-link sec-nav-link" type="button" onclick="subcate('cate3')">Lifestyle</a>
+              <button class="nav-link sec-nav-link Mcate1" data-target="cate3" type="button">Lifestyle</a>
             </li>
             <li class="nav-item">
-              <button class="nav-link sec-nav-link" type="button" onclick="subcate('cate4')">Technology</a>
+              <button class="nav-link sec-nav-link Mcate1" data-target="cate4" type="button">Technology</a>
             </li>
             <li class="nav-item">
-              <button class="nav-link sec-nav-link" type="button" onclick="subcate('cate5')">Adventure</a>
+              <button class="nav-link sec-nav-link Mcate1" data-target="cate5" type="button">Adventure</a>
             </li>
             <li class="nav-item">
-              <button class="nav-link sec-nav-link" type="button" onclick="subcate('cate6')">Food</a>
+              <button class="nav-link sec-nav-link Mcate1" data-target="cate6" type="button">Food</a>
             </li>
             <li class="nav-item">
-              <button class="nav-link sec-nav-link" type="button" onclick="subcate('cate7')">Health</a>
+              <button class="nav-link sec-nav-link Mcate1" data-target="cate7" type="button">Health</a>
             </li>
             <li class="nav-item">
-              <button class="nav-link sec-nav-link" type="button" onclick="subcate('cate8')">Abstract</a>
+              <button class="nav-link sec-nav-link Mcate1" data-target="cate8" type="button">Abstract</a>
             </li>
             <li class="nav-item">
-              <button class="nav-link sec-nav-link" type="button" onclick="subcate('cate9')">Architecture</a>
+              <button class="nav-link sec-nav-link Mcate1" data-target="cate9" type="button">Architecture</a>
             </li>
             <li class="nav-item">
-              <button class="nav-link sec-nav-link" type="button" onclick="subcate('cate10')">Education</a>
+              <button class="nav-link sec-nav-link Mcate1" data-target="cate10" type="button" >Education</a>
             </li>
           </ul>
         </section> <!-- Section of sub Navigation Bar on website -->
 
         <section id="Sub-category" class="container-fluid">
-          <div class="container cate" id="cate1">
+          <div class="container animate__animated cate" id="cate1" >
             <div class="row">
               <div class="col-lg-4 col-md-6 col-sm-12">
                 <ul class="cate-nav">
@@ -195,8 +197,579 @@
               </div>
             </div>
           </div>
+          <div class="container animate__animated cate" id="cate2" >
+            <div class="row">
+              <div class="col-lg-4 col-md-6 col-sm-12">
+                <ul class="cate-nav">
+                  <li class="cate-li"><strong>Main category 1</strong></li>
+                  <li class="cate-li"><a href="">Mountains and peaks</a></li>
+                  <li class="cate-li"><a href="">Beaches and Coastal Scenes</a></li>
+                  <li class="cate-li"><a href="">Forests and Woodlands</a></li>
+                  <li class="cate-li"><a href="">Deserts and Landscapes</a></li>
+                  <li class="cate-li"><a href="">Lakes and rivers</a></li>
+                </ul>                
+              </div>
+              <div class="col-lg-4 col-md-6 col-sm-12">
+                <ul class="cate-nav">
+                  <li class="cate-li"><strong>Main category 2</strong></li>
+                  <li class="cate-li"><a href="">Waterfalls</a></li>
+                  <li class="cate-li"><a href="">Canyons</a></li>
+                  <li class="cate-li"><a href="">Islands</a></li>
+                  <li class="cate-li"><a href="">National Parks</a></li>
+                  <li class="cate-li"><a href="">Rocks Formations</a></li>
+                </ul>              
+              </div>
+              <div class="col-lg-4 col-md-12 col-sm-12">
+                <ul class="cate-nav">
+                  <li class="cate-li"><strong>Main category 3</strong></li>
+                  <li class="cate-li"><a href="">Sunrise & Sunset</a></li>
+                  <li class="cate-li"><a href="">Cloud Formations</a></li>
+                  <li class="cate-li"><a href="">Snowy Landscapes</a></li>
+                  <li class="cate-li"><a href="">Auttumn Foliages</a></li>
+                  <li class="cate-li"><a href="">Winter Landscapes</a></li>
+                </ul>              
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-lg-4 col-md-6 col-sm-12">
+                <ul class="cate-nav">
+                  <li class="cate-li"><strong>Main category 4</strong></li>
+                  <li class="cate-li"><a href="">Wildlife Habitats</a></li>
+                  <li class="cate-li"><a href="">Underwater Life</a></li>
+                  <li class="cate-li"><a href="">Tundra Regions</a></li>
+                </ul>               
+              </div>
+              <div class="col-lg-4 col-md-6 col-sm-12">
+                <ul class="cate-nav">
+                  <li class="cate-li"><strong>Main category 5</strong></li>
+                  <li class="cate-li"><a href="">Gardens & parks</a></li>
+                  <li class="cate-li"><a href="">Wetlands</a></li>
+                  <li class="cate-li"><a href="">Spring Blossoms</a></li>
+                  <li class="cate-li"><a href="">Coastal Rock</a></li>
+                  <li class="cate-li"><a href="">Agri Landscapes</a></li>
+                </ul>                
+              </div>
+              <div class="col-lg-4 col-md-12 col-sm-12">
+                <ul class="cate-nav">
+                  <li class="cate-li"><strong>Main category 6</strong></li>
+                  <li class="cate-li"><a href="">Caves & Caverns</a></li>
+                  <li class="cate-li"><a href="">Natural Disasters</a></li>
+                  <li class="cate-li"><a href="">Extreme Weather</a></li>
+                  <li class="cate-li"><a href="">Rural Landscapes</a></li>
+                </ul>                
+              </div>
+            </div>
+          </div>
+          <div class="container animate__animated cate" id="cate3" >
+            <div class="row">
+              <div class="col-lg-4 col-md-6 col-sm-12">
+                <ul class="cate-nav">
+                  <li class="cate-li"><strong>Main category 1</strong></li>
+                  <li class="cate-li"><a href="">Mountains and peaks</a></li>
+                  <li class="cate-li"><a href="">Beaches and Coastal Scenes</a></li>
+                  <li class="cate-li"><a href="">Forests and Woodlands</a></li>
+                  <li class="cate-li"><a href="">Deserts and Landscapes</a></li>
+                  <li class="cate-li"><a href="">Lakes and rivers</a></li>
+                </ul>                
+              </div>
+              <div class="col-lg-4 col-md-6 col-sm-12">
+                <ul class="cate-nav">
+                  <li class="cate-li"><strong>Main category 2</strong></li>
+                  <li class="cate-li"><a href="">Waterfalls</a></li>
+                  <li class="cate-li"><a href="">Canyons</a></li>
+                  <li class="cate-li"><a href="">Islands</a></li>
+                  <li class="cate-li"><a href="">National Parks</a></li>
+                  <li class="cate-li"><a href="">Rocks Formations</a></li>
+                </ul>              
+              </div>
+              <div class="col-lg-4 col-md-12 col-sm-12">
+                <ul class="cate-nav">
+                  <li class="cate-li"><strong>Main category 3</strong></li>
+                  <li class="cate-li"><a href="">Sunrise & Sunset</a></li>
+                  <li class="cate-li"><a href="">Cloud Formations</a></li>
+                  <li class="cate-li"><a href="">Snowy Landscapes</a></li>
+                  <li class="cate-li"><a href="">Auttumn Foliages</a></li>
+                  <li class="cate-li"><a href="">Winter Landscapes</a></li>
+                </ul>              
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-lg-4 col-md-6 col-sm-12">
+                <ul class="cate-nav">
+                  <li class="cate-li"><strong>Main category 4</strong></li>
+                  <li class="cate-li"><a href="">Wildlife Habitats</a></li>
+                  <li class="cate-li"><a href="">Underwater Life</a></li>
+                  <li class="cate-li"><a href="">Tundra Regions</a></li>
+                </ul>               
+              </div>
+              <div class="col-lg-4 col-md-6 col-sm-12">
+                <ul class="cate-nav">
+                  <li class="cate-li"><strong>Main category 5</strong></li>
+                  <li class="cate-li"><a href="">Gardens & parks</a></li>
+                  <li class="cate-li"><a href="">Wetlands</a></li>
+                  <li class="cate-li"><a href="">Spring Blossoms</a></li>
+                  <li class="cate-li"><a href="">Coastal Rock</a></li>
+                  <li class="cate-li"><a href="">Agri Landscapes</a></li>
+                </ul>                
+              </div>
+              <div class="col-lg-4 col-md-12 col-sm-12">
+                <ul class="cate-nav">
+                  <li class="cate-li"><strong>Main category 6</strong></li>
+                  <li class="cate-li"><a href="">Caves & Caverns</a></li>
+                  <li class="cate-li"><a href="">Natural Disasters</a></li>
+                  <li class="cate-li"><a href="">Extreme Weather</a></li>
+                  <li class="cate-li"><a href="">Rural Landscapes</a></li>
+                </ul>                
+              </div>
+            </div>
+          </div>
+          <div class="container animate__animated cate" id="cate4" >
+            <div class="row">
+              <div class="col-lg-4 col-md-6 col-sm-12">
+                <ul class="cate-nav">
+                  <li class="cate-li"><strong>Main category 1</strong></li>
+                  <li class="cate-li"><a href="">Mountains and peaks</a></li>
+                  <li class="cate-li"><a href="">Beaches and Coastal Scenes</a></li>
+                  <li class="cate-li"><a href="">Forests and Woodlands</a></li>
+                  <li class="cate-li"><a href="">Deserts and Landscapes</a></li>
+                  <li class="cate-li"><a href="">Lakes and rivers</a></li>
+                </ul>                
+              </div>
+              <div class="col-lg-4 col-md-6 col-sm-12">
+                <ul class="cate-nav">
+                  <li class="cate-li"><strong>Main category 2</strong></li>
+                  <li class="cate-li"><a href="">Waterfalls</a></li>
+                  <li class="cate-li"><a href="">Canyons</a></li>
+                  <li class="cate-li"><a href="">Islands</a></li>
+                  <li class="cate-li"><a href="">National Parks</a></li>
+                  <li class="cate-li"><a href="">Rocks Formations</a></li>
+                </ul>              
+              </div>
+              <div class="col-lg-4 col-md-12 col-sm-12">
+                <ul class="cate-nav">
+                  <li class="cate-li"><strong>Main category 3</strong></li>
+                  <li class="cate-li"><a href="">Sunrise & Sunset</a></li>
+                  <li class="cate-li"><a href="">Cloud Formations</a></li>
+                  <li class="cate-li"><a href="">Snowy Landscapes</a></li>
+                  <li class="cate-li"><a href="">Auttumn Foliages</a></li>
+                  <li class="cate-li"><a href="">Winter Landscapes</a></li>
+                </ul>              
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-lg-4 col-md-6 col-sm-12">
+                <ul class="cate-nav">
+                  <li class="cate-li"><strong>Main category 4</strong></li>
+                  <li class="cate-li"><a href="">Wildlife Habitats</a></li>
+                  <li class="cate-li"><a href="">Underwater Life</a></li>
+                  <li class="cate-li"><a href="">Tundra Regions</a></li>
+                </ul>               
+              </div>
+              <div class="col-lg-4 col-md-6 col-sm-12">
+                <ul class="cate-nav">
+                  <li class="cate-li"><strong>Main category 5</strong></li>
+                  <li class="cate-li"><a href="">Gardens & parks</a></li>
+                  <li class="cate-li"><a href="">Wetlands</a></li>
+                  <li class="cate-li"><a href="">Spring Blossoms</a></li>
+                  <li class="cate-li"><a href="">Coastal Rock</a></li>
+                  <li class="cate-li"><a href="">Agri Landscapes</a></li>
+                </ul>                
+              </div>
+              <div class="col-lg-4 col-md-12 col-sm-12">
+                <ul class="cate-nav">
+                  <li class="cate-li"><strong>Main category 6</strong></li>
+                  <li class="cate-li"><a href="">Caves & Caverns</a></li>
+                  <li class="cate-li"><a href="">Natural Disasters</a></li>
+                  <li class="cate-li"><a href="">Extreme Weather</a></li>
+                  <li class="cate-li"><a href="">Rural Landscapes</a></li>
+                </ul>                
+              </div>
+            </div>
+          </div>
+          <div class="container animate__animated cate" id="cate5" >
+            <div class="row">
+              <div class="col-lg-4 col-md-6 col-sm-12">
+                <ul class="cate-nav">
+                  <li class="cate-li"><strong>Main category 1</strong></li>
+                  <li class="cate-li"><a href="">Mountains and peaks</a></li>
+                  <li class="cate-li"><a href="">Beaches and Coastal Scenes</a></li>
+                  <li class="cate-li"><a href="">Forests and Woodlands</a></li>
+                  <li class="cate-li"><a href="">Deserts and Landscapes</a></li>
+                  <li class="cate-li"><a href="">Lakes and rivers</a></li>
+                </ul>                
+              </div>
+              <div class="col-lg-4 col-md-6 col-sm-12">
+                <ul class="cate-nav">
+                  <li class="cate-li"><strong>Main category 2</strong></li>
+                  <li class="cate-li"><a href="">Waterfalls</a></li>
+                  <li class="cate-li"><a href="">Canyons</a></li>
+                  <li class="cate-li"><a href="">Islands</a></li>
+                  <li class="cate-li"><a href="">National Parks</a></li>
+                  <li class="cate-li"><a href="">Rocks Formations</a></li>
+                </ul>              
+              </div>
+              <div class="col-lg-4 col-md-12 col-sm-12">
+                <ul class="cate-nav">
+                  <li class="cate-li"><strong>Main category 3</strong></li>
+                  <li class="cate-li"><a href="">Sunrise & Sunset</a></li>
+                  <li class="cate-li"><a href="">Cloud Formations</a></li>
+                  <li class="cate-li"><a href="">Snowy Landscapes</a></li>
+                  <li class="cate-li"><a href="">Auttumn Foliages</a></li>
+                  <li class="cate-li"><a href="">Winter Landscapes</a></li>
+                </ul>              
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-lg-4 col-md-6 col-sm-12">
+                <ul class="cate-nav">
+                  <li class="cate-li"><strong>Main category 4</strong></li>
+                  <li class="cate-li"><a href="">Wildlife Habitats</a></li>
+                  <li class="cate-li"><a href="">Underwater Life</a></li>
+                  <li class="cate-li"><a href="">Tundra Regions</a></li>
+                </ul>               
+              </div>
+              <div class="col-lg-4 col-md-6 col-sm-12">
+                <ul class="cate-nav">
+                  <li class="cate-li"><strong>Main category 5</strong></li>
+                  <li class="cate-li"><a href="">Gardens & parks</a></li>
+                  <li class="cate-li"><a href="">Wetlands</a></li>
+                  <li class="cate-li"><a href="">Spring Blossoms</a></li>
+                  <li class="cate-li"><a href="">Coastal Rock</a></li>
+                  <li class="cate-li"><a href="">Agri Landscapes</a></li>
+                </ul>                
+              </div>
+              <div class="col-lg-4 col-md-12 col-sm-12">
+                <ul class="cate-nav">
+                  <li class="cate-li"><strong>Main category 6</strong></li>
+                  <li class="cate-li"><a href="">Caves & Caverns</a></li>
+                  <li class="cate-li"><a href="">Natural Disasters</a></li>
+                  <li class="cate-li"><a href="">Extreme Weather</a></li>
+                  <li class="cate-li"><a href="">Rural Landscapes</a></li>
+                </ul>                
+              </div>
+            </div>
+          </div>
+          <div class="container animate__animated cate" id="cate6" >
+            <div class="row">
+              <div class="col-lg-4 col-md-6 col-sm-12">
+                <ul class="cate-nav">
+                  <li class="cate-li"><strong>Main category 1</strong></li>
+                  <li class="cate-li"><a href="">Mountains and peaks</a></li>
+                  <li class="cate-li"><a href="">Beaches and Coastal Scenes</a></li>
+                  <li class="cate-li"><a href="">Forests and Woodlands</a></li>
+                  <li class="cate-li"><a href="">Deserts and Landscapes</a></li>
+                  <li class="cate-li"><a href="">Lakes and rivers</a></li>
+                </ul>                
+              </div>
+              <div class="col-lg-4 col-md-6 col-sm-12">
+                <ul class="cate-nav">
+                  <li class="cate-li"><strong>Main category 2</strong></li>
+                  <li class="cate-li"><a href="">Waterfalls</a></li>
+                  <li class="cate-li"><a href="">Canyons</a></li>
+                  <li class="cate-li"><a href="">Islands</a></li>
+                  <li class="cate-li"><a href="">National Parks</a></li>
+                  <li class="cate-li"><a href="">Rocks Formations</a></li>
+                </ul>              
+              </div>
+              <div class="col-lg-4 col-md-12 col-sm-12">
+                <ul class="cate-nav">
+                  <li class="cate-li"><strong>Main category 3</strong></li>
+                  <li class="cate-li"><a href="">Sunrise & Sunset</a></li>
+                  <li class="cate-li"><a href="">Cloud Formations</a></li>
+                  <li class="cate-li"><a href="">Snowy Landscapes</a></li>
+                  <li class="cate-li"><a href="">Auttumn Foliages</a></li>
+                  <li class="cate-li"><a href="">Winter Landscapes</a></li>
+                </ul>              
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-lg-4 col-md-6 col-sm-12">
+                <ul class="cate-nav">
+                  <li class="cate-li"><strong>Main category 4</strong></li>
+                  <li class="cate-li"><a href="">Wildlife Habitats</a></li>
+                  <li class="cate-li"><a href="">Underwater Life</a></li>
+                  <li class="cate-li"><a href="">Tundra Regions</a></li>
+                </ul>               
+              </div>
+              <div class="col-lg-4 col-md-6 col-sm-12">
+                <ul class="cate-nav">
+                  <li class="cate-li"><strong>Main category 5</strong></li>
+                  <li class="cate-li"><a href="">Gardens & parks</a></li>
+                  <li class="cate-li"><a href="">Wetlands</a></li>
+                  <li class="cate-li"><a href="">Spring Blossoms</a></li>
+                  <li class="cate-li"><a href="">Coastal Rock</a></li>
+                  <li class="cate-li"><a href="">Agri Landscapes</a></li>
+                </ul>                
+              </div>
+              <div class="col-lg-4 col-md-12 col-sm-12">
+                <ul class="cate-nav">
+                  <li class="cate-li"><strong>Main category 6</strong></li>
+                  <li class="cate-li"><a href="">Caves & Caverns</a></li>
+                  <li class="cate-li"><a href="">Natural Disasters</a></li>
+                  <li class="cate-li"><a href="">Extreme Weather</a></li>
+                  <li class="cate-li"><a href="">Rural Landscapes</a></li>
+                </ul>                
+              </div>
+            </div>
+          </div>
+          <div class="container animate__animated cate" id="cate7" >
+            <div class="row">
+              <div class="col-lg-4 col-md-6 col-sm-12">
+                <ul class="cate-nav">
+                  <li class="cate-li"><strong>Main category 1</strong></li>
+                  <li class="cate-li"><a href="">Mountains and peaks</a></li>
+                  <li class="cate-li"><a href="">Beaches and Coastal Scenes</a></li>
+                  <li class="cate-li"><a href="">Forests and Woodlands</a></li>
+                  <li class="cate-li"><a href="">Deserts and Landscapes</a></li>
+                  <li class="cate-li"><a href="">Lakes and rivers</a></li>
+                </ul>                
+              </div>
+              <div class="col-lg-4 col-md-6 col-sm-12">
+                <ul class="cate-nav">
+                  <li class="cate-li"><strong>Main category 2</strong></li>
+                  <li class="cate-li"><a href="">Waterfalls</a></li>
+                  <li class="cate-li"><a href="">Canyons</a></li>
+                  <li class="cate-li"><a href="">Islands</a></li>
+                  <li class="cate-li"><a href="">National Parks</a></li>
+                  <li class="cate-li"><a href="">Rocks Formations</a></li>
+                </ul>              
+              </div>
+              <div class="col-lg-4 col-md-12 col-sm-12">
+                <ul class="cate-nav">
+                  <li class="cate-li"><strong>Main category 3</strong></li>
+                  <li class="cate-li"><a href="">Sunrise & Sunset</a></li>
+                  <li class="cate-li"><a href="">Cloud Formations</a></li>
+                  <li class="cate-li"><a href="">Snowy Landscapes</a></li>
+                  <li class="cate-li"><a href="">Auttumn Foliages</a></li>
+                  <li class="cate-li"><a href="">Winter Landscapes</a></li>
+                </ul>              
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-lg-4 col-md-6 col-sm-12">
+                <ul class="cate-nav">
+                  <li class="cate-li"><strong>Main category 4</strong></li>
+                  <li class="cate-li"><a href="">Wildlife Habitats</a></li>
+                  <li class="cate-li"><a href="">Underwater Life</a></li>
+                  <li class="cate-li"><a href="">Tundra Regions</a></li>
+                </ul>               
+              </div>
+              <div class="col-lg-4 col-md-6 col-sm-12">
+                <ul class="cate-nav">
+                  <li class="cate-li"><strong>Main category 5</strong></li>
+                  <li class="cate-li"><a href="">Gardens & parks</a></li>
+                  <li class="cate-li"><a href="">Wetlands</a></li>
+                  <li class="cate-li"><a href="">Spring Blossoms</a></li>
+                  <li class="cate-li"><a href="">Coastal Rock</a></li>
+                  <li class="cate-li"><a href="">Agri Landscapes</a></li>
+                </ul>                
+              </div>
+              <div class="col-lg-4 col-md-12 col-sm-12">
+                <ul class="cate-nav">
+                  <li class="cate-li"><strong>Main category 6</strong></li>
+                  <li class="cate-li"><a href="">Caves & Caverns</a></li>
+                  <li class="cate-li"><a href="">Natural Disasters</a></li>
+                  <li class="cate-li"><a href="">Extreme Weather</a></li>
+                  <li class="cate-li"><a href="">Rural Landscapes</a></li>
+                </ul>                
+              </div>
+            </div>
+          </div>
+          <div class="container animate__animated cate" id="cate8" >
+            <div class="row">
+              <div class="col-lg-4 col-md-6 col-sm-12">
+                <ul class="cate-nav">
+                  <li class="cate-li"><strong>Main category 1</strong></li>
+                  <li class="cate-li"><a href="">Mountains and peaks</a></li>
+                  <li class="cate-li"><a href="">Beaches and Coastal Scenes</a></li>
+                  <li class="cate-li"><a href="">Forests and Woodlands</a></li>
+                  <li class="cate-li"><a href="">Deserts and Landscapes</a></li>
+                  <li class="cate-li"><a href="">Lakes and rivers</a></li>
+                </ul>                
+              </div>
+              <div class="col-lg-4 col-md-6 col-sm-12">
+                <ul class="cate-nav">
+                  <li class="cate-li"><strong>Main category 2</strong></li>
+                  <li class="cate-li"><a href="">Waterfalls</a></li>
+                  <li class="cate-li"><a href="">Canyons</a></li>
+                  <li class="cate-li"><a href="">Islands</a></li>
+                  <li class="cate-li"><a href="">National Parks</a></li>
+                  <li class="cate-li"><a href="">Rocks Formations</a></li>
+                </ul>              
+              </div>
+              <div class="col-lg-4 col-md-12 col-sm-12">
+                <ul class="cate-nav">
+                  <li class="cate-li"><strong>Main category 3</strong></li>
+                  <li class="cate-li"><a href="">Sunrise & Sunset</a></li>
+                  <li class="cate-li"><a href="">Cloud Formations</a></li>
+                  <li class="cate-li"><a href="">Snowy Landscapes</a></li>
+                  <li class="cate-li"><a href="">Auttumn Foliages</a></li>
+                  <li class="cate-li"><a href="">Winter Landscapes</a></li>
+                </ul>              
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-lg-4 col-md-6 col-sm-12">
+                <ul class="cate-nav">
+                  <li class="cate-li"><strong>Main category 4</strong></li>
+                  <li class="cate-li"><a href="">Wildlife Habitats</a></li>
+                  <li class="cate-li"><a href="">Underwater Life</a></li>
+                  <li class="cate-li"><a href="">Tundra Regions</a></li>
+                </ul>               
+              </div>
+              <div class="col-lg-4 col-md-6 col-sm-12">
+                <ul class="cate-nav">
+                  <li class="cate-li"><strong>Main category 5</strong></li>
+                  <li class="cate-li"><a href="">Gardens & parks</a></li>
+                  <li class="cate-li"><a href="">Wetlands</a></li>
+                  <li class="cate-li"><a href="">Spring Blossoms</a></li>
+                  <li class="cate-li"><a href="">Coastal Rock</a></li>
+                  <li class="cate-li"><a href="">Agri Landscapes</a></li>
+                </ul>                
+              </div>
+              <div class="col-lg-4 col-md-12 col-sm-12">
+                <ul class="cate-nav">
+                  <li class="cate-li"><strong>Main category 6</strong></li>
+                  <li class="cate-li"><a href="">Caves & Caverns</a></li>
+                  <li class="cate-li"><a href="">Natural Disasters</a></li>
+                  <li class="cate-li"><a href="">Extreme Weather</a></li>
+                  <li class="cate-li"><a href="">Rural Landscapes</a></li>
+                </ul>                
+              </div>
+            </div>
+          </div>
+          <div class="container animate__animated cate" id="cate9" >
+            <div class="row">
+              <div class="col-lg-4 col-md-6 col-sm-12">
+                <ul class="cate-nav">
+                  <li class="cate-li"><strong>Main category 1</strong></li>
+                  <li class="cate-li"><a href="">Mountains and peaks</a></li>
+                  <li class="cate-li"><a href="">Beaches and Coastal Scenes</a></li>
+                  <li class="cate-li"><a href="">Forests and Woodlands</a></li>
+                  <li class="cate-li"><a href="">Deserts and Landscapes</a></li>
+                  <li class="cate-li"><a href="">Lakes and rivers</a></li>
+                </ul>                
+              </div>
+              <div class="col-lg-4 col-md-6 col-sm-12">
+                <ul class="cate-nav">
+                  <li class="cate-li"><strong>Main category 2</strong></li>
+                  <li class="cate-li"><a href="">Waterfalls</a></li>
+                  <li class="cate-li"><a href="">Canyons</a></li>
+                  <li class="cate-li"><a href="">Islands</a></li>
+                  <li class="cate-li"><a href="">National Parks</a></li>
+                  <li class="cate-li"><a href="">Rocks Formations</a></li>
+                </ul>              
+              </div>
+              <div class="col-lg-4 col-md-12 col-sm-12">
+                <ul class="cate-nav">
+                  <li class="cate-li"><strong>Main category 3</strong></li>
+                  <li class="cate-li"><a href="">Sunrise & Sunset</a></li>
+                  <li class="cate-li"><a href="">Cloud Formations</a></li>
+                  <li class="cate-li"><a href="">Snowy Landscapes</a></li>
+                  <li class="cate-li"><a href="">Auttumn Foliages</a></li>
+                  <li class="cate-li"><a href="">Winter Landscapes</a></li>
+                </ul>              
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-lg-4 col-md-6 col-sm-12">
+                <ul class="cate-nav">
+                  <li class="cate-li"><strong>Main category 4</strong></li>
+                  <li class="cate-li"><a href="">Wildlife Habitats</a></li>
+                  <li class="cate-li"><a href="">Underwater Life</a></li>
+                  <li class="cate-li"><a href="">Tundra Regions</a></li>
+                </ul>               
+              </div>
+              <div class="col-lg-4 col-md-6 col-sm-12">
+                <ul class="cate-nav">
+                  <li class="cate-li"><strong>Main category 5</strong></li>
+                  <li class="cate-li"><a href="">Gardens & parks</a></li>
+                  <li class="cate-li"><a href="">Wetlands</a></li>
+                  <li class="cate-li"><a href="">Spring Blossoms</a></li>
+                  <li class="cate-li"><a href="">Coastal Rock</a></li>
+                  <li class="cate-li"><a href="">Agri Landscapes</a></li>
+                </ul>                
+              </div>
+              <div class="col-lg-4 col-md-12 col-sm-12">
+                <ul class="cate-nav">
+                  <li class="cate-li"><strong>Main category 6</strong></li>
+                  <li class="cate-li"><a href="">Caves & Caverns</a></li>
+                  <li class="cate-li"><a href="">Natural Disasters</a></li>
+                  <li class="cate-li"><a href="">Extreme Weather</a></li>
+                  <li class="cate-li"><a href="">Rural Landscapes</a></li>
+                </ul>                
+              </div>
+            </div>
+          </div>
+          <div class="container animate__animated cate" id="cate10" >
+            <div class="row">
+              <div class="col-lg-4 col-md-6 col-sm-12">
+                <ul class="cate-nav">
+                  <li class="cate-li"><strong>Main category 1</strong></li>
+                  <li class="cate-li"><a href="">Mountains and peaks</a></li>
+                  <li class="cate-li"><a href="">Beaches and Coastal Scenes</a></li>
+                  <li class="cate-li"><a href="">Forests and Woodlands</a></li>
+                  <li class="cate-li"><a href="">Deserts and Landscapes</a></li>
+                  <li class="cate-li"><a href="">Lakes and rivers</a></li>
+                </ul>                
+              </div>
+              <div class="col-lg-4 col-md-6 col-sm-12">
+                <ul class="cate-nav">
+                  <li class="cate-li"><strong>Main category 2</strong></li>
+                  <li class="cate-li"><a href="">Waterfalls</a></li>
+                  <li class="cate-li"><a href="">Canyons</a></li>
+                  <li class="cate-li"><a href="">Islands</a></li>
+                  <li class="cate-li"><a href="">National Parks</a></li>
+                  <li class="cate-li"><a href="">Rocks Formations</a></li>
+                </ul>              
+              </div>
+              <div class="col-lg-4 col-md-12 col-sm-12">
+                <ul class="cate-nav">
+                  <li class="cate-li"><strong>Main category 3</strong></li>
+                  <li class="cate-li"><a href="">Sunrise & Sunset</a></li>
+                  <li class="cate-li"><a href="">Cloud Formations</a></li>
+                  <li class="cate-li"><a href="">Snowy Landscapes</a></li>
+                  <li class="cate-li"><a href="">Auttumn Foliages</a></li>
+                  <li class="cate-li"><a href="">Winter Landscapes</a></li>
+                </ul>              
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-lg-4 col-md-6 col-sm-12">
+                <ul class="cate-nav">
+                  <li class="cate-li"><strong>Main category 4</strong></li>
+                  <li class="cate-li"><a href="">Wildlife Habitats</a></li>
+                  <li class="cate-li"><a href="">Underwater Life</a></li>
+                  <li class="cate-li"><a href="">Tundra Regions</a></li>
+                </ul>               
+              </div>
+              <div class="col-lg-4 col-md-6 col-sm-12">
+                <ul class="cate-nav">
+                  <li class="cate-li"><strong>Main category 5</strong></li>
+                  <li class="cate-li"><a href="">Gardens & parks</a></li>
+                  <li class="cate-li"><a href="">Wetlands</a></li>
+                  <li class="cate-li"><a href="">Spring Blossoms</a></li>
+                  <li class="cate-li"><a href="">Coastal Rock</a></li>
+                  <li class="cate-li"><a href="">Agri Landscapes</a></li>
+                </ul>                
+              </div>
+              <div class="col-lg-4 col-md-12 col-sm-12">
+                <ul class="cate-nav">
+                  <li class="cate-li"><strong>Main category 6</strong></li>
+                  <li class="cate-li"><a href="">Caves & Caverns</a></li>
+                  <li class="cate-li"><a href="">Natural Disasters</a></li>
+                  <li class="cate-li"><a href="">Extreme Weather</a></li>
+                  <li class="cate-li"><a href="">Rural Landscapes</a></li>
+                </ul>                
+              </div>
+            </div>
+          </div>
         </section>
         <!-- All Subcategory on hover -->
+
+    </section>
+
+    
 
     <section>
         <script src="/js/perload.js"></script>

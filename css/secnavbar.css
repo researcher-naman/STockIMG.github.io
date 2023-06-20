@@ -3,10 +3,19 @@
 #sub-navbar {
     background-color: #be03fc;
     justify-content: center;
+    z-index: 3;
+    padding: 0px;
+    box-shadow: 0px 0.3px 3px 0.4px rgba(100, 100, 100, 0.345);
 }
-
+.sec-nav-link {
+    margin-right: 1rem;
+    margin-left: 1rem;
+    border-bottom: 3.5px solid transparent;
+    transition: border-bottom 0.3s ease-in-out;
+}
 .sec-nav-link:hover {
     color: white;
+    border-bottom: 3.5px solid white;
 }
 .sec-nav-link:enabled {
     color: white;
@@ -14,20 +23,16 @@
 
 /* Sub category css */
   
-
 .cate {
     padding-top: 2.5vh;
     padding-bottom: 2.5vh;
     border: 0.5px solid #808080a7;
     border-top: none;
     display: none;
-    box-shadow: 0px 0.4px 2px 0.7px rgba(115, 115, 115, 0.24);
-}
-.active {
-    display: block;
+    box-shadow: 0px 0.4px 5px 0.5px rgba(115, 115, 115, 0.24);
 }
 .cate:hover {
-    display: block;
+    display: block !important;
 }
 .cate-nav {
     list-style: none;
