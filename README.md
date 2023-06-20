@@ -1,7 +1,7 @@
 
 # STockIMG Webstore 🏬 
 
-This Website design for large scale digital art store.
+This is a Website design for large scale digital art store.
 
 🎨 Explore, buy, and share digital art effortlessly! Our platform for large-scale art stores offers responsive design for any device, a cool light/dark mode switch, and endless customization options 🌈💻. With progress bars, an order cart, and favorite sections, it's easy to navigate and find your art favorites ❤️. Share art links, join memberships, and enjoy secure login/registration pages for a seamless art experience! 🚀
 
@@ -46,6 +46,6 @@ This Website design for large scale digital art store.
 
 | Color             | Hex                                                                |
 | ----------------- | ------------------------------------------------------------------ |
-| Primary Color | ![#00cc33](https://via.placeholder.com/10/00cc33?text=+) #00cc33 |
-| Secondary Color | ![#ff6699](https://via.placeholder.com/10/ff6699?text=+) #ff6699 |
+| Primary Color | ![#fc4903](https://via.placeholder.com/10/fc4903?text=+) #fc4903 |
+| Secondary Color | ![#be03fc](https://via.placeholder.com/10/be03fc?text=+) #be03fc |
 
