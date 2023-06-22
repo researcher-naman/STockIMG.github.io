@@ -15,13 +15,20 @@
     color: white;
     font-size: 1.4rem;
 }
+#site-logo>img {
+    width: 3rem;
+}
 .right-nav {
+    margin: 16px;
+    margin-bottom: 0px;
+    margin-top: 0px;
     margin-left: auto;
     display: flex;
     align-items: center;
+    flex-direction: row;
 }
 .nav-link {
-    color: white;
+    color: var(--deplo-color);
     font-weight: 600;
     font-family: 'Roboto';
     letter-spacing: 0.8px;
@@ -31,19 +38,21 @@
 }
 .navbar-nav {
     align-items: center;
+    flex-direction: row;
+    display: flex !important;
 }
 #nav-icons {
     margin-right: 0.3rem;
 }
 .hover:hover {
-    color: white;
+    color: var(--deplo-color);
     cursor: pointer;
 }
 
 #search-tab>input {
     border: none;
     border-radius: 0px;
-    width: 25rem;
+    width: 30vw;
     padding: 0.3rem;
     padding-left: 0.5rem;
 }
@@ -56,7 +65,7 @@
 #search-tab>button {
     border: none;
     border-radius: 0px;
-    background-color: white;
+    background-color: var(--deplo-color);
     padding-top: 0px;
     padding-bottom: 0px;
 }
@@ -65,7 +74,7 @@
 }
 #search-tab {
     border: 0.4px solid #c2c2c2;
-    box-shadow: 0px 0.5px 3.5px 0.3px rgba(0, 0, 0, 0.150);
+    box-shadow: 0px 0.3px 5px 0.3px rgba(0, 0, 0, 0.199);
 }
 #login {
     padding-left: 1.2rem;
@@ -106,4 +115,35 @@
     border: 0.3px solid #fc4a03c6;
 }
 
+/* Hided elements on big screen (only for mobile device) */
 
+@media only screen and (max-width:425px) {
+    .pc-favor,.pc-cart,.pc-setting,.pc-help {
+        display: none;
+    }
+    .right-nav {
+        margin-left: 16px;
+        flex-direction: row-reverse;
+    }
+    .navbar-nav {
+        margin: 0px !important;
+    }
+    .wide-top { 
+        height: 9.8vh; 
+    }
+    #search-tab>input {
+        width: 100%;
+    }
+    #login {
+       display: none;
+    }
+    #main-nav {
+        flex-wrap: nowrap;
+    }
+    #site-logo {
+        margin-left: 0.5rem !important;
+    }
+    #site-logo>img {
+        width: 38px;
+    }
+}
