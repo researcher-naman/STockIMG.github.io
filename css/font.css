@@ -11,6 +11,8 @@
 
 .wide-top { 
     height: 8.5vh; /* wide space under the main navbar */
+    background-color: var(--sec-color);
+    z-index: 5;
 }
 
 
